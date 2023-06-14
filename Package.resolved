@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "ios-gimbal-swift-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gimbalinc/ios-gimbal-swift-package",
+      "state" : {
+        "revision" : "3a60d4f995b025f2fdbffab982c2b461a2b070a3",
+        "version" : "2.93.0"
+      }
+    },
+    {
+      "identity" : "ios-library",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/urbanairship/ios-library",
+      "state" : {
+        "revision" : "61c8b72eafe6b939aa6a07a04bdcd28a315f06a4",
+        "version" : "16.11.3"
+      }
+    }
+  ],
+  "version" : 2
+}

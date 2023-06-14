@@ -4,25 +4,30 @@
 import PackageDescription
 
 let package = Package(
-    name: "ios-gimbal-airship-adapter-swift-package",
+    name: "GimbalAirshipAdapter",
+    platforms: [
+        .iOS(.v13)],
     products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "ios-gimbal-airship-adapter-swift-package",
-            targets: ["ios-gimbal-airship-adapter-swift-package"]),
+            name: "GimbalAirshipAdapter",
+            targets: ["GimbalAirshipAdapter"]),
     ],
     dependencies: [
-        // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
+        .package(
+            url: "https://github.com/gimbalinc/ios-gimbal-swift-package.git",
+            exact: "2.93.0"
+        ),
+        .package(
+            url: "https://github.com/urbanairship/ios-library.git",
+            exact: "16.11.3"
+        ),
     ],
     targets: [
-        // Targets are the basic building blocks of a package. A target can define a module or a test suite.
-        // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
-            name: "ios-gimbal-airship-adapter-swift-package",
-            dependencies: []),
-        .testTarget(
-            name: "ios-gimbal-airship-adapter-swift-packageTests",
-            dependencies: ["ios-gimbal-airship-adapter-swift-package"]),
+            name: "GimbalAirshipAdapter",
+               dependencies: [
+                .product(name: "AirshipCore", package:"ios-library"),
+                .product(name: "Gimbal", package: "ios-gimbal-swift-package")
+               ])
     ]
 )
