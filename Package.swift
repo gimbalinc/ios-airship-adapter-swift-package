@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "GimbalAirshipAdapter",
     platforms: [
-        .iOS(.v13)],
+        .iOS(.v14)],
     products: [
         .library(
             name: "GimbalAirshipAdapter",
@@ -15,11 +15,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/gimbalinc/ios-gimbal-swift-package.git",
-            exact: "2.93.0"
+            exact: "2.93.1"
         ),
         .package(
             url: "https://github.com/urbanairship/ios-library.git",
-            exact: "16.11.3"
+            exact: "17.2.2"
         ),
     ],
     targets: [

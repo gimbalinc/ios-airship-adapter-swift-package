@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/gimbalinc/ios-gimbal-swift-package",
       "state" : {
-        "revision" : "3a60d4f995b025f2fdbffab982c2b461a2b070a3",
-        "version" : "2.93.0"
+        "revision" : "4577b2cc28d525cae1ea1b62cadfa17d162d06f4",
+        "version" : "2.93.1"
       }
     },
     {
@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/urbanairship/ios-library",
       "state" : {
-        "revision" : "61c8b72eafe6b939aa6a07a04bdcd28a315f06a4",
-        "version" : "16.11.3"
+        "revision" : "dc79ec8426f34d43ad23842265678956020eccde",
+        "version" : "17.2.2"
       }
     }
   ],
