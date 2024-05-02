@@ -15,11 +15,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/gimbalinc/ios-gimbal-swift-package.git",
-            exact: "2.93.1"
+            exact: "2.94.0"
         ),
         .package(
             url: "https://github.com/urbanairship/ios-library.git",
-            exact: "17.2.2"
+            exact: "17.7.3"
         ),
     ],
     targets: [

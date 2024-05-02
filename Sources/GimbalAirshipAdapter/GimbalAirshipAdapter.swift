@@ -1,6 +1,6 @@
 /* Copyright Airship and Contributors */
 
-import AirshipCore
+import AirshipKit
 
 import Gimbal
 
@@ -108,6 +108,8 @@ fileprivate let defaultsSuiteName = "arshp_gmbl_def_suite"
                                                selector: #selector(AirshipAdapter.updateDeviceAttributes),
                                                name: AirshipChannel.channelCreatedEvent,
                                                object: nil)
+        
+        self.isAdapterStarted = defaults.bool(forKey: wasStartedKey)
     }
 
     /**
