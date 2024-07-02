@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/urbanairship/ios-library",
       "state" : {
-        "revision" : "53040c77617a2acc5d9a7b69cf5bbbf36f94ad4b",
-        "version" : "17.7.3"
+        "revision" : "5de76fff7e378773c81a24a2eb1089ce2568d5b3",
+        "version" : "18.2.2"
       }
     }
   ],

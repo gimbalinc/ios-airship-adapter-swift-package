@@ -19,7 +19,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/urbanairship/ios-library.git",
-            exact: "17.7.3"
+            from: "18.2.0"
         ),
     ],
     targets: [
