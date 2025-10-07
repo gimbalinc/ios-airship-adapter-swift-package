@@ -304,8 +304,7 @@ private class AirshipGimbalDelegate : NSObject, PlaceManagerDelegate {
         }
     }
     
-    private func createAndTrackEvent(withName eventName: String,
-                                     forVisit visit: Visit,
+    private func createAndTrackEvent(withName eventName: String, forVisit visit: Visit,
                                      boundaryEvent: AirshipBoundaryEvent) {
         // create event properties
         var visitProperties:[String : Any] = [:]
